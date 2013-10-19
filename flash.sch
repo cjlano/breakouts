@@ -1,0 +1,161 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:connectors
+LIBS:power_supply
+LIBS:rf
+LIBS:serial
+LIBS:flash_memory
+LIBS:mcu
+LIBS:audio_amp
+LIBS:RTC
+LIBS:breakouts-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 13
+Title ""
+Date "14 sep 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SST25VF016B U1001
+U 1 1 4FA7CFDD
+P 5900 3600
+F 0 "U1001" H 5650 3600 60  0000 C CNN
+F 1 "SST25VF016B" H 5900 3050 60  0000 C CNN
+F 2 "" H 5900 3600 60  0001 C CNN
+F 3 "" H 5900 3600 60  0001 C CNN
+	1    5900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR088
+U 1 1 4FA7D796
+P 5150 4400
+F 0 "#PWR088" H 5150 4400 30  0001 C CNN
+F 1 "GND" H 5150 4330 30  0001 C CNN
+F 2 "" H 5150 4400 60  0001 C CNN
+F 3 "" H 5150 4400 60  0001 C CNN
+	1    5150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR089
+U 1 1 4FA7D7A5
+P 6600 3350
+F 0 "#PWR089" H 6600 3450 30  0001 C CNN
+F 1 "VCC" H 6600 3450 30  0000 C CNN
+F 2 "" H 6600 3350 60  0001 C CNN
+F 3 "" H 6600 3350 60  0001 C CNN
+	1    6600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1001
+U 1 1 4FD8FF5B
+P 6900 3500
+F 0 "C1001" H 6950 3600 50  0000 L CNN
+F 1 "100nF" H 6950 3400 50  0000 L CNN
+F 2 "" H 6900 3500 60  0001 C CNN
+F 3 "" H 6900 3500 60  0001 C CNN
+	1    6900 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR090
+U 1 1 4FD8FF8E
+P 7200 3600
+F 0 "#PWR090" H 7200 3600 30  0001 C CNN
+F 1 "GND" H 7200 3530 30  0001 C CNN
+F 2 "" H 7200 3600 60  0001 C CNN
+F 3 "" H 7200 3600 60  0001 C CNN
+	1    7200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4000 5300 4000
+Wire Wire Line
+	6450 3700 6650 3700
+Wire Wire Line
+	6600 3700 6600 3350
+Wire Wire Line
+	5150 4000 5150 4400
+Wire Wire Line
+	6600 3500 6700 3500
+Connection ~ 6600 3500
+Wire Wire Line
+	7100 3500 7200 3500
+Wire Wire Line
+	7200 3500 7200 3600
+$Comp
+L CONN_4 P1001
+U 1 1 5247E750
+P 4500 3850
+F 0 "P1001" V 4450 3850 50  0000 C CNN
+F 1 "CONN_4" V 4550 3850 50  0000 C CNN
+F 2 "" H 4500 3850 60  0000 C CNN
+F 3 "" H 4500 3850 60  0000 C CNN
+	1    4500 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3700 5300 3700
+Wire Wire Line
+	4850 3800 5300 3800
+Wire Wire Line
+	4850 3900 5300 3900
+Connection ~ 5150 4000
+$Comp
+L CONN_4 P1002
+U 1 1 5247E7AD
+P 7000 3850
+F 0 "P1002" V 6950 3850 50  0000 C CNN
+F 1 "CONN_4" V 7050 3850 50  0000 C CNN
+F 2 "" H 7000 3850 60  0000 C CNN
+F 3 "" H 7000 3850 60  0000 C CNN
+	1    7000 3850
+	1    0    0    1   
+$EndComp
+Connection ~ 6600 3700
+Wire Wire Line
+	6450 3800 6650 3800
+Wire Wire Line
+	6450 3900 6650 3900
+Wire Wire Line
+	6450 4000 6650 4000
+$EndSCHEMATC
