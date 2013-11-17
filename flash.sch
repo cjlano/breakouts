@@ -43,11 +43,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 13
-Title ""
+Title "Flash memory breakout"
 Date "14 sep 2012"
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "CC-BY-SA"
 Comment2 ""
 Comment3 ""
 Comment4 ""

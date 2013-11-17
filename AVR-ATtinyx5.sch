@@ -43,11 +43,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 13
-Title ""
+Title "ATtiny-x5 breakout"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "CC-BY-SA"
 Comment2 ""
 Comment3 ""
 Comment4 ""
