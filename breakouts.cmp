@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 24 Nov 2013 23:16:28 CET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 27 Nov 2013 22:58:17 CET
 
 BeginCmp
 TimeStamp = /523CB37E/5230D58A;
@@ -410,7 +410,7 @@ BeginCmp
 TimeStamp = /52474B38/52474B40;
 Reference = IC901;
 ValeurCmp = ATTINY85-S;
-IdModule  = SO8-200;
+IdModule  = SOIC-8;
 EndCmp
 
 BeginCmp
@@ -963,42 +963,42 @@ BeginCmp
 TimeStamp = /523CB628/523CB6C3;
 Reference = U401;
 ValeurCmp = MRF49XA;
-IdModule  = ;
+IdModule  = TSSOP-16;
 EndCmp
 
 BeginCmp
 TimeStamp = /523E05A7/4FAB70AB;
 Reference = U501;
 ValeurCmp = SP6641A/B;
-IdModule  = ;
+IdModule  = SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /523E076E/523E067F;
 Reference = U601;
 ValeurCmp = NX1117C33Z;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /52434703/4FA194E7;
 Reference = U701;
 ValeurCmp = ATMEGA88PA-A;
-IdModule  = TQFP32;
+IdModule  = TQFP32-0.8mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /52434F39/52435DA8;
 Reference = U801;
 ValeurCmp = ATMEGA32U2;
-IdModule  = ;
+IdModule  = TQFP32-0.8mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /5247E725/4FA7CFDD;
 Reference = U1001;
 ValeurCmp = SST25VF016B;
-IdModule  = ;
+IdModule  = SOIC-8;
 EndCmp
 
 BeginCmp
@@ -1012,14 +1012,14 @@ BeginCmp
 TimeStamp = /524809F5/52485152;
 Reference = U1201;
 ValeurCmp = TDA1517ATW;
-IdModule  = ;
+IdModule  = TSSOP-20;
 EndCmp
 
 BeginCmp
 TimeStamp = /52507F36/52507FEF;
 Reference = U1301;
 ValeurCmp = MCP7940M;
-IdModule  = ;
+IdModule  = SOIC-8_Narrow_3.90mm;
 EndCmp
 
 BeginCmp
