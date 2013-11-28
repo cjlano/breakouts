@@ -52,16 +52,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3550 3600 0    60   Input ~ 0
-Radio_SPI_CLK
-Text GLabel 3550 3450 0    60   Input ~ 0
-Radio_SPI_MOSI
-Text GLabel 3550 3750 0    60   Input ~ 0
-Radio_SPI_CSn
-Text GLabel 3550 3900 0    60   Output ~ 0
-Radio_SPI_MISO
-Text GLabel 3550 2450 0    60   Input ~ 0
-Radio_VCC
 $Comp
 L CRYSTAL X401
 U 1 1 4FAC2AE7
@@ -73,16 +63,6 @@ F 3 "" H 7600 4500 60  0001 C CNN
 	1    7600 4500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3550 4050 0    60   Output ~ 0
-Radio_IROn
-Text GLabel 3550 4200 0    60   Input ~ 0
-Radio_FSELn
-Text GLabel 3550 4350 0    60   Output ~ 0
-Radio_FINT
-Text GLabel 3550 4500 0    60   Output ~ 0
-Radio_CLKOUT
-Text GLabel 3550 2600 0    60   Output ~ 0
-Radio_RSSIO
 $Comp
 L C C401
 U 1 1 4FB16649
@@ -206,8 +186,6 @@ F 3 "" H 10850 3300 60  0001 C CNN
 $EndComp
 Text GLabel 3550 4700 0    60   Input ~ 0
 Radio_RESETn
-Text GLabel 3550 3200 0    60   Output ~ 0
-Radio_DIO
 $Comp
 L PWR_FLAG #FLG027
 U 1 1 4FB2D397
