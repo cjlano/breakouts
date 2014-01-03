@@ -37,14 +37,13 @@ LIBS:flash_memory
 LIBS:mcu
 LIBS:audio_amp
 LIBS:RTC
-LIBS:breakouts-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 13
 Title "FT230X breakout"
-Date ""
+Date "3 jan 2014"
 Rev ""
 Comp ""
 Comment1 "CC-BY-SA"
@@ -354,10 +353,8 @@ Wire Wire Line
 	8700 4500 8700 4250
 Wire Wire Line
 	8700 4250 8900 4250
-Text Label 8450 3750 0    60   ~ 0
+Text Label 8450 2750 0    60   ~ 0
 VCCIO
-Wire Wire Line
-	8450 3750 8900 3750
 Wire Wire Line
 	8900 2850 8450 2850
 Wire Wire Line
@@ -379,9 +376,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 3250 8900 3250
 Wire Wire Line
-	8900 2750 8800 2750
-Wire Wire Line
-	8800 2750 8800 2550
+	8450 2750 8900 2750
 $Comp
 L FT230X-QFN U1101
 U 1 1 5247F67E
@@ -544,13 +539,13 @@ $EndComp
 $Comp
 L VCC3 #PWR0127
 U 1 1 5288CA9C
-P 8800 2550
-F 0 "#PWR0127" H 8800 2650 30  0001 C CNN
-F 1 "VCC3" H 8800 2650 30  0001 C CNN
-F 2 "" H 8800 2550 60  0000 C CNN
-F 3 "" H 8800 2550 60  0000 C CNN
-F 4 "+5V" H 8800 2650 30  0000 C CNN "Voltage"
-	1    8800 2550
+P 8800 3700
+F 0 "#PWR0127" H 8800 3800 30  0001 C CNN
+F 1 "VCC3" H 8800 3800 30  0001 C CNN
+F 2 "" H 8800 3700 60  0000 C CNN
+F 3 "" H 8800 3700 60  0000 C CNN
+F 4 "+5V" H 8800 3800 30  0000 C CNN "Voltage"
+	1    8800 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -591,4 +586,8 @@ Wire Wire Line
 	1700 4100 1850 4100
 Wire Wire Line
 	1850 4100 1850 3950
+Wire Wire Line
+	8900 3750 8800 3750
+Wire Wire Line
+	8800 3750 8800 3700
 $EndSCHEMATC

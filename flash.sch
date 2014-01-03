@@ -37,14 +37,13 @@ LIBS:flash_memory
 LIBS:mcu
 LIBS:audio_amp
 LIBS:RTC
-LIBS:breakouts-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 13
 Title "Flash memory breakout"
-Date "14 sep 2012"
+Date "3 jan 2014"
 Rev ""
 Comp ""
 Comment1 "CC-BY-SA"
