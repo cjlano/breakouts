@@ -37,13 +37,14 @@ LIBS:flash_memory
 LIBS:mcu
 LIBS:audio_amp
 LIBS:RTC
+LIBS:breakouts-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 13
 Title "Mini-USB breakout"
-Date "3 jan 2014"
+Date "4 jan 2014"
 Rev ""
 Comp ""
 Comment1 "CC-BY-SA"
@@ -439,10 +440,10 @@ F 4 "+5V" H 5700 3150 30  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC1 #PWR?
+L VCC1 #PWR016
 U 1 1 529918D2
 P 6700 2900
-F 0 "#PWR?" H 6700 3000 30  0001 C CNN
+F 0 "#PWR016" H 6700 3000 30  0001 C CNN
 F 1 "VCC1" H 6700 3000 30  0001 C CNN
 F 2 "" H 6700 2900 60  0000 C CNN
 F 3 "" H 6700 2900 60  0000 C CNN
@@ -451,10 +452,10 @@ F 4 "+5V" H 6700 3000 30  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC1 #PWR?
+L VCC1 #PWR017
 U 1 1 529918E5
 P 6700 3350
-F 0 "#PWR?" H 6700 3450 30  0001 C CNN
+F 0 "#PWR017" H 6700 3450 30  0001 C CNN
 F 1 "VCC1" H 6700 3450 30  0001 C CNN
 F 2 "" H 6700 3350 60  0000 C CNN
 F 3 "" H 6700 3350 60  0000 C CNN

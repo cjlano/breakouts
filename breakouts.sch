@@ -37,13 +37,14 @@ LIBS:flash_memory
 LIBS:mcu
 LIBS:audio_amp
 LIBS:RTC
+LIBS:breakouts-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 13
 Title "Top"
-Date "3 jan 2014"
+Date "4 jan 2014"
 Rev ""
 Comp ""
 Comment1 "CC-BY-SA"
