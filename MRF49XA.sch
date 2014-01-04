@@ -368,10 +368,6 @@ F 3 "" H 1050 4000 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 4350 1550 4350
-Wire Wire Line
-	1550 4250 1550 4500
-Wire Wire Line
 	1400 3100 1600 3100
 Wire Wire Line
 	1600 3100 1600 3200
@@ -419,7 +415,7 @@ Text Label 3650 4050 0    60   ~ 0
 ~Radio_IRO
 Text Label 3650 4700 0    60   ~ 0
 ~Radio_RESET
-Text Label 1800 3650 0    60   ~ 0
+Text Label 1800 4350 0    60   ~ 0
 Radio_VCC
 Text Label 1800 3850 0    60   ~ 0
 Radio_FINT
@@ -440,8 +436,6 @@ Radio_RSSIO
 Text Label 3650 4200 0    60   ~ 0
 ~Radio_FSEL
 Wire Wire Line
-	1400 3650 1800 3650
-Wire Wire Line
 	1400 3750 1800 3750
 Wire Wire Line
 	1400 3850 1800 3850
@@ -451,9 +445,6 @@ Wire Wire Line
 	1400 4050 1800 4050
 Wire Wire Line
 	1400 4150 1800 4150
-Wire Wire Line
-	1400 4250 1550 4250
-Connection ~ 1550 4350
 $Comp
 L GND10 #PWR035
 U 1 1 52743AFD
@@ -468,12 +459,12 @@ $EndComp
 $Comp
 L GND10 #PWR036
 U 1 1 52743B0A
-P 1550 4500
-F 0 "#PWR036" H 1550 4500 30  0001 C CNN
-F 1 "GND10" H 1550 4430 30  0001 C CNN
-F 2 "" H 1550 4500 60  0000 C CNN
-F 3 "" H 1550 4500 60  0000 C CNN
-	1    1550 4500
+P 1550 4250
+F 0 "#PWR036" H 1550 4250 30  0001 C CNN
+F 1 "GND10" H 1550 4180 30  0001 C CNN
+F 2 "" H 1550 4250 60  0000 C CNN
+F 3 "" H 1550 4250 60  0000 C CNN
+	1    1550 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -595,4 +586,27 @@ $EndComp
 Wire Wire Line
 	5350 2300 5350 2450
 Connection ~ 5350 2450
+Wire Wire Line
+	1400 3650 1500 3650
+Wire Wire Line
+	1500 3650 1500 3500
+Wire Wire Line
+	1500 3500 1650 3500
+Wire Wire Line
+	1650 3500 1650 3550
+$Comp
+L GND10 #PWR?
+U 1 1 52C8865F
+P 1650 3550
+F 0 "#PWR?" H 1650 3550 30  0001 C CNN
+F 1 "GND10" H 1650 3480 30  0001 C CNN
+F 2 "" H 1650 3550 60  0000 C CNN
+F 3 "" H 1650 3550 60  0000 C CNN
+	1    1650 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4350 1800 4350
+Wire Wire Line
+	1400 4250 1550 4250
 $EndSCHEMATC
